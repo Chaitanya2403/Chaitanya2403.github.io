@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </script>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="portfoliologo.jpg" alt="" width="300" height="200">
+            <ul>
+                <li><a href="#Home"class="nav-link">Home</a></li>
+                <li><a href="#About"class="nav-link">About</a></li>
+                <li><a href="#Skills"class="nav-link">Skills</a></li>
+                <li><a href="#Services"class="nav-link">Services</a></li>
+                <li><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+
+
+        <!--home section start-->
+
+
+        <div class="home-content">
+
+            <h1>Hi, I'm <span1>Chaitanya Kandpal</span1></h1>
+            <h2>This is my official portfolio website</h2>
+            <h3>And I'm <span2>an engineering student</span2></h3>
+            <h4></h4>
+
+        </div>
+
+        <!--about section start-->
+
+        <section class="hero" id="about">
+            <img
+              src="learn.jpg" 
+              width="300" 
+              height="325"
+              alt="jane-doe"
+              loading="lazy"
+              class="hero-img"
+            />
+            <div class="bio animate__animated animate__shakeX">
+              <h2 class="bio-title">About Me</h2>
+              <p class="bio-text">
+                I'm a passionate learner when it comes to real world applications. I like working on complex problems and converting them into simpler ones for easy understanding. I embarked on the field of engineering for this very reason. In addition to this, finance 
+                and management is something that I have always been intrigued about and will continue to be involved it in the future. I'm
+                familiar with coding languages like python and I'm learning arduino programming which involves embedded C. I'm relatively new
+                to website development which includes html, css and javascript.
+              </p>
+            </div>
+      </section>
+
+        <div class="About"></div>
+
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+      
+            <div class="skills-wrapper">
+              <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="java.svg"
+                  alt=""
+                  width="50" 
+                  height="100"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="css.png"
+                  alt=""
+                  width="100" 
+                  height="80"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="python.png"                 
+                  alt=""
+                  width="100" 
+                  height="100"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+      
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="finance.png"
+                  alt=""
+                  width="100" 
+                  height="100"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="management.png"
+                  alt=""
+                  width="100" 
+                  height="100"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="project-management.jpg"
+                  alt=""
+                  width="100" 
+                  height="100"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="services" id="services">
+            <h2 class="services-title">Some of my Recent Services</h2>
+            <div class="services-container">
+              <div class="service-container service-card">
+                
+                <h3 class="service-title">Fintech</h3>
+                <p class="service-details">
+                  The use of technology and innovation to improve financial activities and to compete with traditional financial methods.
+                </p>
+                <a href="#" target="_blank" class="service-link">Check it Out</a>
+              </div>
+              <div class="service-container service-card">
+                
+                <h3 class="service-title">Web development</h3>
+                <p class="service-details">
+                  Design of Team AutoZ webpage, and other websites for personal uses. Applications of HTML, CSS and JavaScript.
+                </p>
+                <a href="#" target="_blank" class="service-link">Check it Out</a>
+              </div>
+              <div class="service-container service-card">
+                
+                <h3 class="service-title">Management</h3>
+                <p class="service-details">
+                  Member of the Management domain in Team AutoZ which includes sponsorship and content related tasks and initiatives.
+                </p>
+                <a href="#" target="_blank" class="service-link">Check it Out</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact" id="contact">
+            <h2>Get In Touch With Me</h2>
+            <div class="contact-form-container">
+              <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                  <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="sender-name"
+                      placeholder="Enter Your Name"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="sender-email"
+                      placeholder="Enter Your Email"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      cols="60"
+                      rows="10"
+                      placeholder="Enter Your Message"
+                      name="message"
+                      class="input-field"
+                      required
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Submit"
+                    id="submit-btn"
+                    class="submit-btn"
+                  />
+                </form>
+              </div>
+            </div>
+          </section>
+
+          <div class="socials">
+            <a href="#" target="_blank"
+              ><img
+                src="twitter.gif"
+                alt="Twitter"
+                loading="lazy"
+                class="socicon"
+                width="80" 
+                height="80"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                src="ig.gif"
+                alt="Instagram"
+                loading="lazy"
+                class="socicon"
+                width="80" 
+                height="80"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                src="LinkedIn.gif"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+                width="80" 
+                height="80"
+            /></a>
+            <a href="#" target="_blank"
+              ><img src="github.gif" alt="Github" class="socicon" width="80" height="80"
+            /></a>
+
+        
+    
+    
+        
+        <script src="script.js"></script>
+
+
+</body>
+</html>
